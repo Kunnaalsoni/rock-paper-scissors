@@ -5,7 +5,7 @@ comp=0
 pl=0
 #scores
 
-while p<winning and comp<winning:
+while pl<winning and comp<winning:
 	rand_num = randint(0,2)
 	print(f"computer score:{comp} player score:{pl}\n")
 	player = input("Player, make your move: \n").lower()
